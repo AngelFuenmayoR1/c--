@@ -12,12 +12,14 @@ namespace segundo
 
 int main()
 {
-
+    using namespace std;
     int x = 10;
 
     std::cout << "El valor de x es: " << x << std::endl;
     std::cout << "El valor de x en el namespace primero es: " << primero::x << std::endl;
     std::cout << "El valor de x en el namespace segundo es: " << segundo::x << std::endl;
+
+    cout<<x<< std::endl;
 
     /*
     Podemos observar que al usar namespaces
