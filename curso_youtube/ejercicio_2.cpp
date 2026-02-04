@@ -24,5 +24,25 @@ int main () {
     //char (Caracteres individual)
     char letra = 'A';
     std::cout<<"La letra es: "<<letra<<std::endl;
-    return 0;
+    char calificacion = 'A';
+    char inicio = 'A';
+  
+    /* Puede almacenar cualquier caracter, incluyendo letras, numeros y simbolos especiales
+    ejemplos: !,A,3,#,b
+    */
+
+    //booleanos (bool)
+
+    bool esEstudiante = true; //o false
+    bool encendido = false;
+    bool venta = true;
+    std::cout<<"¿Es estudiante?: "<<esEstudiante<<std::endl;
+    // Los booleanos solo pueden tener dos valores: true (verdadero) retornara 1 y false (falso) retornara 0
+
+    //string (Cadenas de caracteres)
+    std::string nombre = "Sisu";
+    std::cout<<"HOLA "<<nombre<<std::endl;
+
+      return 0;
+
 }
