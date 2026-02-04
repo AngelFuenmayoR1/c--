@@ -4,7 +4,7 @@ int main () {
 
     const double PI = 3.14159;
     double radio = 10.0;
-    const double area = 2 * PI * radio;
+    const double area =  PI * radio * radio;
     std::cout << "El area de un circulo con radio "<< radio << " es: " << area << " centimetros cuadrados" << std::endl;
 
     // CONST nos ayuda a definir constantes que no pueden ser modificadas durante la ejecucion del programa tipo 
